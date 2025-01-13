@@ -16,13 +16,13 @@ namespace Prime.UnitTests.Services
         [InlineData(-1, "Not a prime Number")]
         [InlineData(0, "Not a prime Number")]
         [InlineData(1, "Not a prime Number")]
-        [InlineData(7, "Not a prime Number")]
+        [InlineData(8, "Not a prime Number")]
         [InlineData(11, "Prime Number")]
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value, string statement)
         {
             var result = _primeService.IsPrime(value, statement);
 
-            Assert.True(result, "Answer Not Correct");
+            Assert.True(result, "Answer not correct");
         }
     }
 }
