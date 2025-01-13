@@ -10,7 +10,14 @@ namespace Prime.Services
             {
                 return false;
             }
-            throw new NotImplementedException("Not fully implemented.");
+            for (int i = 1; i*i <= candidate; i++)
+            {
+                if (candidate % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
