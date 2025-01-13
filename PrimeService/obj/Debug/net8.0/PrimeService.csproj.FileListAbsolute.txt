@@ -1,0 +1,12 @@
+C:\Users\ma\source\repos\test\PrimeService\bin\Debug\net8.0\PrimeService.deps.json
+C:\Users\ma\source\repos\test\PrimeService\bin\Debug\net8.0\PrimeService.dll
+C:\Users\ma\source\repos\test\PrimeService\bin\Debug\net8.0\PrimeService.pdb
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.AssemblyInfoInputs.cache
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.AssemblyInfo.cs
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.sourcelink.json
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.dll
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\refint\PrimeService.dll
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\PrimeService.pdb
+C:\Users\ma\source\repos\test\PrimeService\obj\Debug\net8.0\ref\PrimeService.dll
