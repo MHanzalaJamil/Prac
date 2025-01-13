@@ -13,16 +13,16 @@ namespace Prime.UnitTests.Services
         }
 
         [Theory]
-        [InlineData(-1)]
-        [InlineData(0)]
-        [InlineData(1)]
-        [InlineData(8)]
-        [InlineData(10)]
-        public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
+        [InlineData(-1, "Not a prime Number")]
+        [InlineData(0, "Not a prime Number")]
+        [InlineData(1, "Not a prime Number")]
+        [InlineData(8, "Not a prime Number")]
+        [InlineData(11, "Prime Number")]
+        public void IsPrime_ValuesLessThan2_ReturnFalse(int value, string statement)
         {
-            var result = _primeService.IsPrime(value);
+            var result = _primeService.IsPrime(value, statement);
 
-            Assert.False(result, $"{value} should not be prime");
+            Assert.True(result, "Answer Not Correct");
         }
     }
 }
