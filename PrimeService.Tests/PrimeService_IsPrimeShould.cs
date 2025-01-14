@@ -18,7 +18,7 @@ namespace Prime.UnitTests.Services
         [InlineData(1, "Not a prime Number")]
         [InlineData(8, "Not a prime Number")]
         [InlineData(11, "Prime Number")]
-        public void IsPrime_ValuesLessThan2_ReturnFalse(int value, string statement)
+        public void Check_if_prime(int value, string statement)
         {
             var result = _primeService.IsPrime(value, statement);
 
