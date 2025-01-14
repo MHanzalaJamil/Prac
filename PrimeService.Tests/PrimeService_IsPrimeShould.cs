@@ -21,7 +21,7 @@ namespace Prime.UnitTests.Services
         public void Check_if_prime(int value, string statement)
         {
             var result = _primeService.IsPrime(value, statement);
-
+            Console.WriteLine(result);
             Assert.True(result, "Answer not correct");
         }
     }
